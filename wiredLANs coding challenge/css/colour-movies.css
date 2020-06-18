@@ -1,0 +1,67 @@
+.movies .movie .wrap-content {
+	background: #eee; 
+	padding: 15px; 
+	border-width: 5px;
+	border-radius: 0 0 30px 0; 
+	border-style: solid; 
+	margin: 0 0 30px; 
+}
+
+.movies .movie.blue .wrap-content {
+	border-color: #20639b;
+}
+
+.movies .movie.green .wrap-content {
+	border-color: #3cae6f;
+}
+
+.movies .movie.red .wrap-content {
+	border-color: #ea2c23;
+}
+
+.movies .movie.yellow .wrap-content {
+	border-color: #f4ac30;
+}
+
+.movies .movie.blue .wrap-content h3 {
+	color: #20639b;
+}
+
+.movies .movie.green .wrap-content h3 {
+	color: #3cae6f;
+}
+
+.movies .movie.red .wrap-content h3 {
+	color: #ea2c23;
+}
+
+.movies .movie.yellow .wrap-content h3 {
+	color: #f4ac30;
+}
+
+.movies .movie img {
+	max-width: 100%; 
+	margin-bottom: 15px; 
+}
+
+.fresh {
+	color:#fa320a; 
+}
+
+.rotten {
+	color:#0ac855;
+}
+
+
+@media (min-width: 992px) { 
+	.movies .movie img {
+		max-width: 100%; 
+		margin-bottom: 0; 
+	}
+}
+
+@media (max-width: 575px) { 
+	.movies .movie img {
+		width:100%;  
+	}	
+}
